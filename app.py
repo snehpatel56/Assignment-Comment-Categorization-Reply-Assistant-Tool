@@ -7,7 +7,7 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
 # 🧠 Set Gemini API key
-genai.configure(api_key="AIzaSyBZ5Oqg0rTxo2Aa4r2-Hued85HOvnDUio0")  # 🔁 Replace with your actual key
+genai.configure(api_key="api key")  # 🔁 Replace with your actual key
 
 model = genai.GenerativeModel("gemini-1.5-flash")
 
